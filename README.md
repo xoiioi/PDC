@@ -5,7 +5,7 @@ Simple digital clock based on python.
 # Installing
 
 ### First, clone the repository:
-$ git clone https://github.com/xoiioi/PDC/main/PDC.git
+$ git clone https://github.com/xoiioi/PDC.git
 (or download the .zip file)
 ### Move to PDC directory:
 $ cd PDC
