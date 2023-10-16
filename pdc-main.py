@@ -5,7 +5,7 @@ from art import * # pip install art
 import time
 import os
 
-delay = 60 # Clock delay
+delay = 0.9 # Clock delay
 while True:
 	now = datetime.now()
 	timenow = now.strftime("%H:%M")
