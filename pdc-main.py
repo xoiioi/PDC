@@ -1,14 +1,14 @@
 # Python-based digital clock
-# Author: xoiioi
+# Author: openrs
 from datetime import datetime # pip install datetime
 from art import * # pip install art
 import time
 import os
 
-delay = 0.9 # Clock delay
+delay = 0 # Clock delay
 while True:
 	now = datetime.now()
-	timenow = now.strftime("%H:%M")
+	timenow = now.strftime("%H:%M:%S")
 	timeart=text2art(timenow, font='big')
 	print(timeart)
 	time.sleep(delay) # Delay
